@@ -25,8 +25,13 @@ To add a chunk either click on the green Insert button and choose R or hit Comma
 
 2) Please describe one of the ways that Wilson et. al. suggest is a good practice for computational reproducibility and how a tool like R can be used. Write your answer below.
 
+Wilson et. al. suggested that collaboration is one key strategy for good practices in scientific computing. Specifically, agreeing to terms and methods of communication and crediting others for their work are all highly important. R is excellent for collaboration for a few reasons. First, it's free, so it's less likely that people will not have access to it. Second, it's commonly used, especially in particular fields so you can have some confidence that there will be collaborators that have some understanding of how it works. Third, unlike python (which is also free) R can be subject to less code errors with constant version changes. Relatedly, editing/communicating with easy version control allows you to go back to previously operating scripts when the 'wrong' edits are made. This user-friendliness and ability to take from and upload to Github very easily can also make it possible to distribute codes widely via 1 page that can house instructions for citations. This makes it more likely that (1) others will properly cite all versions of work related to a project and (2) your projects can be used more and be more 'standard' in the field, which will hopefully help with reproducibility. 
+
 
 3) Add a code chunk and find the square root of 4 to the 13th power. If you are unsure of what command to use, google it. 
+```{r}
+(sqrt(4))^13
+```
 
 
 4) Push this homework to the GitHub repository for the homework. 
